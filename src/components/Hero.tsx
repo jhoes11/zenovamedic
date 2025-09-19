@@ -31,7 +31,7 @@ const Hero = () => {
               size="lg" 
               className="btn-premium text-lg px-8 py-4 hover:scale-105 transition-transform duration-300"
             >
-              <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
                 Agenda tu Cita
               </a>
             </Button>

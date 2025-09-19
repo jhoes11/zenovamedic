@@ -39,7 +39,7 @@ const Header = () => {
               </Link>
             ))}
             <Button className="btn-premium">
-              <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
                 Agenda tu Cita
               </a>
             </Button>
@@ -71,7 +71,7 @@ const Header = () => {
                 </Link>
               ))}
               <Button className="btn-premium w-fit">
-                <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
                   Agenda tu Cita
                 </a>
               </Button>

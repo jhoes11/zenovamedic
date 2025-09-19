@@ -37,7 +37,7 @@ const ServiceCard = ({ title, description, image, price, category }: ServiceCard
             size="sm" 
             className="btn-premium text-sm px-6"
           >
-            <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
               Agendar Cita
             </a>
           </Button>
