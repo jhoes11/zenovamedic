@@ -40,7 +40,7 @@ const Nosotros = () => {
       </section>
 
       {/* Our Story */}
-      <section className="section-padding logo-bg">
+      <section className="section-padding">
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -113,7 +113,7 @@ const Nosotros = () => {
       </section>
 
       {/* Stats */}
-      <section className="section-padding logo-bg">
+      <section className="section-padding">
         <div className="container mx-auto max-w-4xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>

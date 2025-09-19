@@ -89,7 +89,7 @@ const Index = () => {
       <Hero />
 
       {/* Featured Services */}
-      <section className="section-padding bg-white logo-bg">
+      <section className="section-padding bg-white">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 fade-in-up">
@@ -144,7 +144,7 @@ const Index = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="section-padding bg-white logo-bg">
+      <section className="section-padding bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -203,7 +203,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-white logo-bg">
+      <section className="section-padding bg-white">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             ¿Lista para conocer tu <span className="text-primary">mejor versión</span>?

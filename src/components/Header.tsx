@@ -22,11 +22,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img 
-              src="/src/assets/zenova-logo.png" 
-              alt="Zenova Medic - Estética & Salud" 
-              className="h-12 w-auto"
-            />
+            <h1 className="text-2xl font-bold text-primary">Zenova Medic</h1>
           </Link>
 
           {/* Desktop Navigation */}
