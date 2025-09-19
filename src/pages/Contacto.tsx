@@ -66,7 +66,7 @@ const Contacto = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="section-padding">
+      <section className="section-padding logo-bg">
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
@@ -208,7 +208,7 @@ const Contacto = () => {
                   Utiliza nuestro sistema de citas en línea para mayor comodidad.
                 </p>
                 <Button className="btn-premium w-full">
-                  <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
                     Agendar Cita Online
                   </a>
                 </Button>
@@ -235,7 +235,7 @@ const Contacto = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="section-padding">
+      <section className="section-padding logo-bg">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold mb-8 text-center">Preguntas frecuentes</h2>
           

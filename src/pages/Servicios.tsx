@@ -143,7 +143,7 @@ const Servicios = () => {
       </section>
 
       {/* Categories Filter */}
-      <section className="py-8 bg-white sticky top-20 z-40 border-b border-border/50">
+      <section className="py-8 bg-white logo-bg sticky top-20 z-40 border-b border-border/50">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap gap-2 justify-center">
             {categories.map((category) => (
@@ -165,7 +165,7 @@ const Servicios = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="section-padding">
+      <section className="section-padding logo-bg">
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredServices.map((service) => (
@@ -238,7 +238,7 @@ const Servicios = () => {
             Agenda tu consulta personalizada y descubre el tratamiento perfecto para ti.
           </p>
           <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/90 transition-colors duration-300">
-            <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
               Agendar Consulta Gratuita
             </a>
           </button>
