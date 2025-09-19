@@ -6,85 +6,66 @@ import facialImage from "@/assets/facial-service.jpg";
 import bodyImage from "@/assets/body-service.jpg";
 import intimateImage from "@/assets/intimate-service.jpg";
 import serumImage from "@/assets/serum-service.jpg";
-
 const Index = () => {
-  const featuredServices = [
-    {
-      title: "Bótox Facial",
-      description: "Elimina arrugas de expresión y líneas finas para un rostro más joven y natural.",
-      category: "Tratamiento Facial",
-      image: facialImage,
-      price: "Desde S/ 800"
-    },
-    {
-      title: "CoolSculpting",
-      description: "Eliminación de grasa localizada sin cirugía mediante tecnología de criolipólisis.",
-      category: "Tratamiento Corporal", 
-      image: bodyImage,
-      price: "Desde S/ 2,500"
-    },
-    {
-      title: "Rejuvenecimiento Vaginal",
-      description: "Mejora la función, estética y bienestar íntimo femenino con tecnología láser.",
-      category: "Medicina Íntima",
-      image: intimateImage,
-      price: "Consultar"
-    },
-    {
-      title: "Suero Antioxidante Premium", 
-      description: "Cóctel de vitaminas y antioxidantes para combatir el envejecimiento desde adentro.",
-      category: "Sueroterapia",
-      image: serumImage,
-      price: "Desde S/ 300"
-    }
-  ];
-
-  const benefits = [
-    {
-      icon: <Award className="w-8 h-8 text-primary" />,
-      title: "Especialistas Certificados",
-      description: "Médicos con certificaciones internacionales y años de experiencia en medicina estética."
-    },
-    {
-      icon: <CheckCircle className="w-8 h-8 text-primary" />,
-      title: "Tecnología Avanzada",
-      description: "Equipos de última generación y técnicas innovadoras para resultados excepcionales."
-    },
-    {
-      icon: <Users className="w-8 h-8 text-primary" />,
-      title: "Atención Personalizada",
-      description: "Cada tratamiento es diseñado específicamente para tus necesidades y objetivos."
-    },
-    {
-      icon: <Star className="w-8 h-8 text-primary" />,
-      title: "Resultados Naturales",
-      description: "Nos enfocamos en realzar tu belleza natural con resultados armoniosos y duraderos."
-    }
-  ];
-
-  const testimonials = [
-    {
-      name: "María González",
-      treatment: "Bótox Facial",
-      rating: 5,
-      comment: "Excelente atención y resultados increíbles. Me siento más segura y radiante."
-    },
-    {
-      name: "Ana Rodríguez", 
-      treatment: "CoolSculpting",
-      rating: 5,
-      comment: "El tratamiento superó mis expectativas. Perdí centímetros sin dolor ni recuperación."
-    },
-    {
-      name: "Carmen Silva",
-      treatment: "Rellenos Faciales",
-      rating: 5,
-      comment: "El Dr. tiene manos de oro. Mis labios se ven naturales y hermosos."
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const featuredServices = [{
+    title: "Bótox Facial",
+    description: "Elimina arrugas de expresión y líneas finas para un rostro más joven y natural.",
+    category: "Tratamiento Facial",
+    image: facialImage,
+    price: "Desde S/ 800"
+  }, {
+    title: "CoolSculpting",
+    description: "Eliminación de grasa localizada sin cirugía mediante tecnología de criolipólisis.",
+    category: "Tratamiento Corporal",
+    image: bodyImage,
+    price: "Desde S/ 2,500"
+  }, {
+    title: "Rejuvenecimiento Vaginal",
+    description: "Mejora la función, estética y bienestar íntimo femenino con tecnología láser.",
+    category: "Medicina Íntima",
+    image: intimateImage,
+    price: "Consultar"
+  }, {
+    title: "Suero Antioxidante Premium",
+    description: "Cóctel de vitaminas y antioxidantes para combatir el envejecimiento desde adentro.",
+    category: "Sueroterapia",
+    image: serumImage,
+    price: "Desde S/ 300"
+  }];
+  const benefits = [{
+    icon: <Award className="w-8 h-8 text-primary" />,
+    title: "Especialistas Certificados",
+    description: "Médicos con certificaciones internacionales y años de experiencia en medicina estética."
+  }, {
+    icon: <CheckCircle className="w-8 h-8 text-primary" />,
+    title: "Tecnología Avanzada",
+    description: "Equipos de última generación y técnicas innovadoras para resultados excepcionales."
+  }, {
+    icon: <Users className="w-8 h-8 text-primary" />,
+    title: "Atención Personalizada",
+    description: "Cada tratamiento es diseñado específicamente para tus necesidades y objetivos."
+  }, {
+    icon: <Star className="w-8 h-8 text-primary" />,
+    title: "Resultados Naturales",
+    description: "Nos enfocamos en realzar tu belleza natural con resultados armoniosos y duraderos."
+  }];
+  const testimonials = [{
+    name: "María González",
+    treatment: "Bótox Facial",
+    rating: 5,
+    comment: "Excelente atención y resultados increíbles. Me siento más segura y radiante."
+  }, {
+    name: "Ana Rodríguez",
+    treatment: "CoolSculpting",
+    rating: 5,
+    comment: "El tratamiento superó mis expectativas. Perdí centímetros sin dolor ni recuperación."
+  }, {
+    name: "Carmen Silva",
+    treatment: "Rellenos Faciales",
+    rating: 5,
+    comment: "El Dr. tiene manos de oro. Mis labios se ven naturales y hermosos."
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <Hero />
 
@@ -102,11 +83,11 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            {featuredServices.map((service, index) => (
-              <div key={index} className="fade-in-up" style={{ animationDelay: `${index * 0.1}s` }}>
+            {featuredServices.map((service, index) => <div key={index} className="fade-in-up" style={{
+            animationDelay: `${index * 0.1}s`
+          }}>
                 <ServiceCard {...service} />
-              </div>
-            ))}
+              </div>)}
           </div>
 
           <div className="text-center">
@@ -130,15 +111,13 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {benefits.map((benefit, index) => (
-              <div key={index} className="text-center bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
+            {benefits.map((benefit, index) => <div key={index} className="text-center bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="flex justify-center mb-4">
                   {benefit.icon}
                 </div>
                 <h3 className="font-semibold text-lg mb-3">{benefit.title}</h3>
                 <p className="text-luxury text-sm">{benefit.description}</p>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -156,20 +135,16 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="bg-secondary/10 rounded-xl p-6 border border-border/20">
+            {testimonials.map((testimonial, index) => <div key={index} className="bg-secondary/10 rounded-xl p-6 border border-border/20">
                 <div className="flex items-center mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                  ))}
+                  {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />)}
                 </div>
                 <p className="text-luxury mb-4 italic">"{testimonial.comment}"</p>
                 <div>
                   <div className="font-semibold">{testimonial.name}</div>
                   <div className="text-primary text-sm">{testimonial.treatment}</div>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -177,7 +152,7 @@ const Index = () => {
       {/* Stats */}
       <section className="section-padding bg-gradient-gold">
         <div className="container mx-auto max-w-4xl text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">
+          <h2 className="text-3xl font-bold mb-12 text-slate-950 md:text-5xl">
             Números que nos respaldan
           </h2>
           
@@ -225,8 +200,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
