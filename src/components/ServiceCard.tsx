@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-
 interface ServiceCardProps {
   title: string;
   description: string;
@@ -8,16 +7,16 @@ interface ServiceCardProps {
   price?: string;
   category: string;
 }
-
-const ServiceCard = ({ title, description, image, price, category }: ServiceCardProps) => {
-  return (
-    <Card className="card-premium hover-lift group overflow-hidden">
+const ServiceCard = ({
+  title,
+  description,
+  image,
+  price,
+  category
+}: ServiceCardProps) => {
+  return <Card className="card-premium hover-lift group overflow-hidden">
       <div className="relative overflow-hidden">
-        <img
-          src={image}
-          alt={title}
-          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
-        />
+        <img src={image} alt={title} className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500" />
         <div className="absolute top-4 left-4">
           <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
             {category}
@@ -30,21 +29,14 @@ const ServiceCard = ({ title, description, image, price, category }: ServiceCard
         <p className="text-luxury text-sm mb-4 line-clamp-3">{description}</p>
         
         <div className="flex items-center justify-between">
-          {price && (
-            <span className="text-primary font-semibold text-lg">{price}</span>
-          )}
-          <Button 
-            size="sm" 
-            className="btn-premium text-sm px-6"
-          >
-            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
+          {price && <span className="text-primary font-semibold text-lg">{price}</span>}
+          <Button size="sm" className="btn-premium text-sm px-6">
+            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer" className="my-0 mx-0 px-0 py-0">
               Agendar Cita
             </a>
           </Button>
         </div>
       </CardContent>
-    </Card>
-  );
+    </Card>;
 };
-
 export default ServiceCard;
