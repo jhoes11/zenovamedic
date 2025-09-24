@@ -70,7 +70,7 @@ const Footer = () => {
 
       {/* WhatsApp Float Button */}
       <a
-        href="https://wa.me/51987654321"
+        href="https://wa.me/51986921164?text=Buen%20d%C3%ADa%20%E2%9C%A8"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 z-50"
