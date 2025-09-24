@@ -164,11 +164,11 @@ experiencia</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur bg-transparent">+200</div>
-              <div className="text-white/90 mx-0 my-[15px]">Pacientes
+              <div className="text-white/90 mx-0 my-0">Pacientes
 satisfechos</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">15+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">30+</div>
               <div className="text-white/90">Tratamientos disponibles</div>
             </div>
             <div>
@@ -192,9 +192,7 @@ satisfechos</div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="btn-premium text-lg px-8 py-4">
-              <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
-                Agendar Consulta Gratuita
-              </a>
+              <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">Agendar Consulta </a>
             </Button>
             <Button className="btn-outline-premium text-lg px-8 py-4">
               <a href="/contacto">Más Información</a>
