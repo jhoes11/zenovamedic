@@ -14,20 +14,20 @@ const Index = () => {
     image: facialImage,
     price: "Desde S/ 800"
   }, {
-    title: "CoolSculpting",
-    description: "Eliminación de grasa localizada sin cirugía mediante tecnología de criolipólisis.",
+    title: "MELA (Lipotransferencia)",
+    description: "Transferencia de grasa autóloga para dar volumen y contorno corporal de forma natural.",
     category: "Tratamiento Corporal",
     image: bodyImage,
     price: "Desde S/ 2,500"
   }, {
-    title: "Rejuvenecimiento Vaginal",
-    description: "Mejora la función, estética y bienestar íntimo femenino con tecnología láser.",
+    title: "HIFU Íntimo",
+    description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función y estética.",
     category: "Medicina Íntima",
     image: intimateImage,
     price: "Consultar"
   }, {
-    title: "Suero Antioxidante Premium",
-    description: "Cóctel de vitaminas y antioxidantes para combatir el envejecimiento desde adentro.",
+    title: "Coctel de Vitaminas Antiestrés",
+    description: "Cóctel personalizado de vitaminas y nutrientes para combatir el estrés y revitalizar.",
     category: "Sueroterapia",
     image: serumImage,
     price: "Desde S/ 300"

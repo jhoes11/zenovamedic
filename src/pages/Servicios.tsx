@@ -55,8 +55,8 @@ const Servicios = () => {
     // Corporales
     {
       id: 5,
-      title: "CoolSculpting",
-      description: "Eliminación de grasa localizada sin cirugía mediante criolipólisis. Resultados permanentes y sin tiempo de recuperación.",
+      title: "MELA (Lipotransferencia)",
+      description: "Transferencia de grasa autóloga para dar volumen y contorno corporal de forma natural y permanente.",
       category: "corporales",
       image: bodyImage,
       price: "Desde S/ 2,500"
@@ -81,8 +81,8 @@ const Servicios = () => {
     // Íntimos
     {
       id: 8,
-      title: "Rejuvenecimiento Vaginal",
-      description: "Mejora la función, estética y bienestar íntimo femenino con tecnología láser de última generación.",
+      title: "HIFU Íntimo",
+      description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función, estética y bienestar.",
       category: "intimos",
       image: intimateImage,
       price: "Consultar"
@@ -99,8 +99,8 @@ const Servicios = () => {
     // Sueroterapia
     {
       id: 10,
-      title: "Suero Antioxidante Premium",
-      description: "Cóctel de vitaminas, antioxidantes y nutrientes para combatir el envejecimiento desde adentro.",
+      title: "Coctel de Vitaminas Antiestrés",
+      description: "Cóctel personalizado de vitaminas y nutrientes para combatir el estrés y revitalizar el organismo.",
       category: "sueroterapia",
       image: serumImage,
       price: "Desde S/ 300"
