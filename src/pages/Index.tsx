@@ -158,19 +158,19 @@ const Index = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">+5</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">+5</div>
               <div className="text-white/90">Años de experiencia</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">+200</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">+200</div>
               <div className="text-white/90">Pacientes satisfechos</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">15+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">15+</div>
               <div className="text-white/90">Tratamientos disponibles</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2">100%</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">100%</div>
               <div className="text-white/90">Profesionales certificados</div>
             </div>
           </div>
