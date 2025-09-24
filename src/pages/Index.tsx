@@ -150,7 +150,7 @@ const Index = () => {
       </section>
 
       {/* Stats */}
-      <section className="section-padding bg-gradient-gold">
+      <section className="section-padding bg-gradient-gold bg-neutral-900">
         <div className="container mx-auto max-w-4xl text-center text-white">
           <h2 className="text-3xl font-bold mb-12 text-slate-950 md:text-5xl">
             Números que nos respaldan
@@ -159,11 +159,13 @@ const Index = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">+5</div>
-              <div className="text-white/90">Años de experiencia</div>
+              <div className="text-white/90">Años de
+experiencia</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">+200</div>
-              <div className="text-white/90">Pacientes satisfechos</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur bg-transparent">+200</div>
+              <div className="text-white/90 mx-0 my-[15px]">Pacientes
+satisfechos</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold mb-2 text-shadow-primary-blur">15+</div>
