@@ -76,10 +76,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 fade-in-up">
               Servicios <span className="text-primary">Premium</span>
             </h2>
-            <p className="text-luxury max-w-2xl mx-auto fade-in-up">
-              Descubre nuestros tratamientos más populares, diseñados para realzar tu belleza natural
-              con la más alta tecnología y profesionalismo.
-            </p>
+            <p className="text-luxury max-w-2xl mx-auto fade-in-up">Descubre nuestros tratamientos exclusivos, diseñados para realzar tu belleza natural con la más alta tecnología y personal capacitado.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
