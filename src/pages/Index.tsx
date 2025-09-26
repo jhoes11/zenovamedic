@@ -11,30 +11,22 @@ const Index = () => {
     title: "BOTOX 2 ZONAS",
     description: "Elimina arrugas de expresión y líneas finas para un rostro más joven y natural.",
     category: "Tratamiento Facial",
-    image: facialImage,
-    originalPrice: "S/ 750.00",
-    promoPrice: "S/ 600.00"
+    image: facialImage
   }, {
     title: "MELA (1 ZONA)- Sin Drenaje",
     description: "Transferencia de grasa autóloga para dar volumen y contorno corporal de forma natural.",
     category: "Tratamiento Corporal",
-    image: bodyImage,
-    originalPrice: "S/ 4,900.00",
-    promoPrice: "S/ 4,300.00"
+    image: bodyImage
   }, {
     title: "HIFU INTIMO",
     description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función y estética.",
     category: "Medicina Íntima",
-    image: intimateImage,
-    originalPrice: "S/ 700.00",
-    promoPrice: "S/ 490.00"
+    image: intimateImage
   }, {
     title: "COCTEL DE VITAMINAS ANTIESTRES",
     description: "Cóctel personalizado de vitaminas y nutrientes para combatir el estrés y revitalizar.",
     category: "Sueroterapia",
-    image: serumImage,
-    originalPrice: "S/ 260.00",
-    promoPrice: "S/ 250.00"
+    image: serumImage
   }];
   const benefits = [{
     icon: <Award className="w-8 h-8 text-primary" />,

@@ -30,13 +30,7 @@ const ServiceCard = ({
         <h3 className="font-semibold text-lg mb-3 text-foreground">{title}</h3>
         <p className="text-luxury text-sm mb-4 line-clamp-3">{description}</p>
         
-        <div className="space-y-3 text-center">
-          {originalPrice && promoPrice && (
-            <div>
-              <div className="text-sm text-muted-foreground line-through">{originalPrice}</div>
-              <div className="text-primary font-semibold text-xl">{promoPrice}</div>
-            </div>
-          )}
+        <div className="text-center">
           <Button size="sm" className="btn-premium text-sm px-6 w-full">
             <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer" className="my-0 mx-0 px-0 py-0">
               Agendar Cita

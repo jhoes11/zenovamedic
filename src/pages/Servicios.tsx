@@ -24,189 +24,147 @@ const Servicios = () => {
       title: "HYDRAEXPRESS",
       description: "Tratamiento facial express que hidrata y revitaliza la piel en tiempo récord.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 80.00",
-      promoPrice: "S/ 59.00"
+      image: facialImage
     },
     {
       id: 2,
       title: "VELO DE COLÁGENO",
       description: "Mascarilla de colágeno que aporta firmeza y elasticidad instantánea a la piel.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 70.00",
-      promoPrice: "S/ 49.00"
+      image: facialImage
     },
     {
       id: 3,
       title: "HYDRAFACIAL 7D",
       description: "Limpieza profunda de 7 pasos que exfolia, extrae e hidrata para una piel radiante.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 120.00",
-      promoPrice: "S/ 89.00"
+      image: facialImage
     },
     {
       id: 4,
       title: "HYDRAFACIAL 9D",
       description: "Tratamiento avanzado de 9 pasos para rejuvenecer y revitalizar profundamente la piel.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 170.00",
-      promoPrice: "S/ 139.00"
+      image: facialImage
     },
     {
       id: 5,
       title: "HYDRALIP",
       description: "Hidratación y volumización de labios para un aspecto natural y seductor.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 160.00",
-      promoPrice: "S/ 129.00"
+      image: facialImage
     },
     {
       id: 6,
       title: "PRP FACIAL",
       description: "Plasma Rico en Plaquetas para regeneración natural y rejuvenecimiento facial.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 200.00",
-      promoPrice: "S/ 160.00"
+      image: facialImage
     },
     {
       id: 7,
       title: "HIFU Facial (2 SESIONES)",
       description: "Ultrasonido focalizado de alta intensidad para lifting facial sin cirugía.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 800.00",
-      promoPrice: "S/ 550.00"
+      image: facialImage
     },
     {
       id: 8,
       title: "NCTF",
       description: "Biorevitalización con ácido hialurónico y complejo polivitamínico.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 600.00",
-      promoPrice: "S/ 490.00"
+      image: facialImage
     },
     {
       id: 9,
       title: "PINK GLOW",
       description: "Tratamiento que aporta luminosidad y brillo rosado natural a la piel.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 500.00",
-      promoPrice: "S/ 390.00"
+      image: facialImage
     },
     {
       id: 10,
       title: "MESOTERAPIA BTX DMAE",
       description: "Mesoterapia con toxina botulínica y DMAE para rejuvenecer y tensar la piel.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 300.00",
-      promoPrice: "S/ 229.00"
+      image: facialImage
     },
     {
       id: 11,
       title: "BOTOX 1 ZONA",
       description: "Aplicación de botox en una zona específica para eliminar arrugas de expresión.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 370.00",
-      promoPrice: "S/ 350.00"
+      image: facialImage
     },
     {
       id: 12,
       title: "BOTOX 2 ZONAS",
       description: "Tratamiento con botox en dos zonas para resultados más completos.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 750.00",
-      promoPrice: "S/ 600.00"
+      image: facialImage
     },
     {
       id: 13,
       title: "BOTOX (3 ZONAS)",
       description: "Aplicación completa de botox en tres zonas para máximos resultados.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 1,100.00",
-      promoPrice: "S/ 890.00"
+      image: facialImage
     },
     {
       id: 14,
       title: "EXOSOMAS FACIALES",
       description: "Tecnología avanzada de exosomas para regeneración celular profunda.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 900.00",
-      promoPrice: "S/ 750.00"
+      image: facialImage
     },
     {
       id: 15,
       title: "LIPOPAPADA CON ENZIMAS",
       description: "Eliminación de grasa en papada utilizando enzimas liporreductoras.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 1,150.00",
-      promoPrice: "S/ 990.00"
+      image: facialImage
     },
     {
       id: 16,
       title: "RADIESSE (1 VIAL)",
       description: "Relleno con hidroxiapatita cálcica para estimular colágeno natural.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 1,100.00",
-      promoPrice: "S/ 990.00"
+      image: facialImage
     },
     {
       id: 17,
       title: "RADIESSE (2 VIALES)",
       description: "Tratamiento avanzado con 2 viales de Radiesse para resultados óptimos.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 2,000.00",
-      promoPrice: "S/ 1,750.00"
+      image: facialImage
     },
     {
       id: 18,
       title: "RADIESSE (3 VIALES)",
       description: "Tratamiento completo con 3 viales para máxima volumización y firmeza.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 3,000.00",
-      promoPrice: "S/ 2,650.00"
+      image: facialImage
     },
     {
       id: 19,
       title: "RINOMODELACION",
       description: "Remodelación nasal no quirúrgica con ácido hialurónico.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 990.00",
-      promoPrice: "S/ 890.00"
+      image: facialImage
     },
     {
       id: 20,
       title: "PERFECT LIPS",
       description: "Perfilado y volumización de labios para una sonrisa perfecta.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 790.00",
-      promoPrice: "S/ 690.00"
+      image: facialImage
     },
     {
       id: 21,
       title: "RELLENO DE MENTON",
       description: "Definición y proyección del mentón con rellenos dérmicos.",
       category: "faciales",
-      image: facialImage,
-      originalPrice: "S/ 890.00",
-      promoPrice: "S/ 790.00"
+      image: facialImage
     },
 
     // Corporales
@@ -215,117 +173,91 @@ const Servicios = () => {
       title: "HIFU CORPORAL",
       description: "Ultrasonido focalizado para reafirmar y tonificar el cuerpo.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 800.00",
-      promoPrice: "S/ 550.00"
+      image: bodyImage
     },
     {
       id: 23,
       title: "PROTOCOLO ABDOMEN Y FLANCOS (5 SESIONES)",
       description: "Plan completo de 5 sesiones para reducir grasa abdominal y flancos.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 900.00",
-      promoPrice: "S/ 750.00"
+      image: bodyImage
     },
     {
       id: 24,
       title: "PROTOCOLO AFRODITA (5 SESIONES)",
       description: "Protocolo de 5 sesiones para contornear la figura femenina.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 900.00",
-      promoPrice: "S/ 750.00"
+      image: bodyImage
     },
     {
       id: 25,
       title: "PROTOCOLO CLEOPATRA (4 SESIONES)",
       description: "Tratamiento de 4 sesiones inspirado en la belleza egipcia.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 1,000.00",
-      promoPrice: "S/ 890.00"
+      image: bodyImage
     },
     {
       id: 26,
       title: "PROTOCOLO VERANO 10 SESIONES",
       description: "Plan intensivo de 10 sesiones para preparar el cuerpo para el verano.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 1,650.00",
-      promoPrice: "S/ 1,390.00"
+      image: bodyImage
     },
     {
       id: 27,
       title: "PRP DORSO DE MANOS",
       description: "Rejuvenecimiento de manos con Plasma Rico en Plaquetas.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 140.00",
-      promoPrice: "S/ 110.00"
+      image: bodyImage
     },
     {
       id: 28,
       title: "MELA (1 ZONA)- Sin Drenaje",
       description: "Lipotransferencia en una zona para contornear el cuerpo naturalmente.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 4,900.00",
-      promoPrice: "S/ 4,300.00"
+      image: bodyImage
     },
     {
       id: 29,
       title: "MELA (2 ZONA)- Sin Drenaje",
       description: "Lipotransferencia en dos zonas para resultados más completos.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 6,500.00",
-      promoPrice: "S/ 5,900.00"
+      image: bodyImage
     },
     {
       id: 30,
       title: "MELA (3 ZONA)- Sin Drenaje",
       description: "Lipotransferencia completa en tres zonas corporales.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 7,500.00",
-      promoPrice: "S/ 6,900.00"
+      image: bodyImage
     },
     {
       id: 31,
       title: "Paquete de drenajes 10 Sesiones",
       description: "Plan de 10 sesiones de drenaje linfático post-operatorio.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 1,300.00",
-      promoPrice: "S/ 1,000.00"
+      image: bodyImage
     },
     {
       id: 32,
       title: "Paquete de drenajes 15 Sesiones",
       description: "Plan de 15 sesiones de drenaje linfático para óptimos resultados.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 1,900.00",
-      promoPrice: "S/ 1,400.00"
+      image: bodyImage
     },
     {
       id: 33,
       title: "Paquete de drenajes 20 Sesiones",
       description: "Plan completo de 20 sesiones de drenaje linfático especializado.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 2,400.00",
-      promoPrice: "S/ 1,850.00"
+      image: bodyImage
     },
     {
       id: 34,
       title: "PROTOCOLO CAPILAR (5 sesiones)",
       description: "Tratamiento de 5 sesiones para fortalecimiento y crecimiento capilar.",
       category: "corporales",
-      image: bodyImage,
-      originalPrice: "S/ 950.00",
-      promoPrice: "S/ 750.00"
+      image: bodyImage
     },
 
     // Íntimos
@@ -334,9 +266,7 @@ const Servicios = () => {
       title: "HIFU INTIMO",
       description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función y estética.",
       category: "intimos",
-      image: intimateImage,
-      originalPrice: "S/ 700.00",
-      promoPrice: "S/ 490.00"
+      image: intimateImage
     },
 
     // Sueroterapia
@@ -345,27 +275,21 @@ const Servicios = () => {
       title: "COCTEL DE VITAMINAS ANTIESTRES",
       description: "Cóctel personalizado de vitaminas para combatir el estrés y revitalizar el organismo.",
       category: "sueroterapia",
-      image: serumImage,
-      originalPrice: "S/ 260.00",
-      promoPrice: "S/ 250.00"
+      image: serumImage
     },
     {
       id: 37,
       title: "GLUTATION",
       description: "Antioxidante maestro que mejora la piel y fortalece el sistema inmune.",
       category: "sueroterapia",
-      image: serumImage,
-      originalPrice: "S/ 200.00",
-      promoPrice: "S/ 169.00"
+      image: serumImage
     },
     {
       id: 38,
       title: "VITAMINA C",
       description: "Potente antioxidante que ilumina la piel y fortalece las defensas.",
       category: "sueroterapia",
-      image: serumImage,
-      originalPrice: "S/ 200.00",
-      promoPrice: "S/ 169.00"
+      image: serumImage
     }
   ];
 
@@ -420,8 +344,6 @@ const Servicios = () => {
                 title={service.title}
                 description={service.description}
                 image={service.image}
-                originalPrice={service.originalPrice}
-                promoPrice={service.promoPrice}
                 category={categories.find(cat => cat.id === service.category)?.name || ""}
               />
             ))}
