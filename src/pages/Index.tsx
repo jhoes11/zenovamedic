@@ -153,7 +153,7 @@ const Index = () => {
       {/* Stats */}
       <section className="section-padding bg-gradient-gold bg-[#d1b877]">
         <div className="container mx-auto max-w-4xl text-center text-white">
-          <h2 className="text-3xl font-bold mb-12 text-slate-100 text-center md:text-6xl">
+          <h2 className="text-3xl font-bold mb-12 text-center text-slate-50 md:text-6xl">
             Números que nos respaldan
           </h2>
           
