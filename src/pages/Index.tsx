@@ -2,31 +2,31 @@ import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
 import { Star, Award, Users, CheckCircle } from "lucide-react";
-import facialImage from "@/assets/facial-service.jpg";
-import bodyImage from "@/assets/body-service.jpg";
-import intimateImage from "@/assets/intimate-service.jpg";
-import serumImage from "@/assets/serum-service.jpg";
+import botoxImg from "@/assets/services/botox.jpg";
+import melaImg from "@/assets/services/mela.jpg";
+import hifuIntimoImg from "@/assets/services/hifu-intimo.jpg";
+import vitaminasAntiestresImg from "@/assets/services/vitaminas-antiestres.jpg";
 const Index = () => {
   const featuredServices = [{
     title: "BOTOX 2 ZONAS",
     description: "Elimina arrugas de expresión y líneas finas para un rostro más joven y natural.",
     category: "Tratamiento Facial",
-    image: facialImage
+    image: botoxImg
   }, {
     title: "MELA (1 ZONA)- Sin Drenaje",
     description: "Transferencia de grasa autóloga para dar volumen y contorno corporal de forma natural.",
     category: "Tratamiento Corporal",
-    image: bodyImage
+    image: melaImg
   }, {
     title: "HIFU INTIMO",
     description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función y estética.",
     category: "Medicina Íntima",
-    image: intimateImage
+    image: hifuIntimoImg
   }, {
     title: "COCTEL DE VITAMINAS ANTIESTRES",
     description: "Cóctel personalizado de vitaminas y nutrientes para combatir el estrés y revitalizar.",
     category: "Sueroterapia",
-    image: serumImage
+    image: vitaminasAntiestresImg
   }];
   const benefits = [{
     icon: <Award className="w-8 h-8 text-primary" />,

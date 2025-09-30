@@ -1,10 +1,38 @@
 import { useState } from "react";
 import ServiceCard from "@/components/ServiceCard";
 import { Button } from "@/components/ui/button";
-import facialImage from "@/assets/facial-service.jpg";
-import bodyImage from "@/assets/body-service.jpg";
-import intimateImage from "@/assets/intimate-service.jpg";
-import serumImage from "@/assets/serum-service.jpg";
+
+// Import all service-specific images
+import hydraexpressImg from "@/assets/services/hydraexpress.jpg";
+import veloColagenoImg from "@/assets/services/velo-colageno.jpg";
+import hydrafacial7dImg from "@/assets/services/hydrafacial-7d.jpg";
+import hydrafacial9dImg from "@/assets/services/hydrafacial-9d.jpg";
+import hydralipImg from "@/assets/services/hydralip.jpg";
+import prpFacialImg from "@/assets/services/prp-facial.jpg";
+import hifuFacialImg from "@/assets/services/hifu-facial.jpg";
+import nctfImg from "@/assets/services/nctf.jpg";
+import pinkGlowImg from "@/assets/services/pink-glow.jpg";
+import mesoterapiaBtxImg from "@/assets/services/mesoterapia-btx.jpg";
+import botoxImg from "@/assets/services/botox.jpg";
+import exosomasImg from "@/assets/services/exosomas.jpg";
+import lipopapadaImg from "@/assets/services/lipopapada.jpg";
+import radiesseImg from "@/assets/services/radiesse.jpg";
+import rinomodelacionImg from "@/assets/services/rinomodelacion.jpg";
+import perfectLipsImg from "@/assets/services/perfect-lips.jpg";
+import rellenoMentonImg from "@/assets/services/relleno-menton.jpg";
+import hifuCorporalImg from "@/assets/services/hifu-corporal.jpg";
+import abdomenFlancosImg from "@/assets/services/abdomen-flancos.jpg";
+import protocoloAfroditaImg from "@/assets/services/protocolo-afrodita.jpg";
+import protocoloCleopatraImg from "@/assets/services/protocolo-cleopatra.jpg";
+import protocoloVeranoImg from "@/assets/services/protocolo-verano.jpg";
+import prpManosImg from "@/assets/services/prp-manos.jpg";
+import melaImg from "@/assets/services/mela.jpg";
+import drenajesImg from "@/assets/services/drenajes.jpg";
+import protocoloCapilarImg from "@/assets/services/protocolo-capilar.jpg";
+import hifuIntimoImg from "@/assets/services/hifu-intimo.jpg";
+import vitaminasAntiestresImg from "@/assets/services/vitaminas-antiestres.jpg";
+import glutationImg from "@/assets/services/glutation.jpg";
+import vitaminaCImg from "@/assets/services/vitamina-c.jpg";
 
 const Servicios = () => {
   const [activeCategory, setActiveCategory] = useState("todos");
@@ -24,147 +52,147 @@ const Servicios = () => {
       title: "HYDRAEXPRESS",
       description: "Tratamiento facial express que hidrata y revitaliza la piel en tiempo récord.",
       category: "faciales",
-      image: facialImage
+      image: hydraexpressImg
     },
     {
       id: 2,
       title: "VELO DE COLÁGENO",
       description: "Mascarilla de colágeno que aporta firmeza y elasticidad instantánea a la piel.",
       category: "faciales",
-      image: facialImage
+      image: veloColagenoImg
     },
     {
       id: 3,
       title: "HYDRAFACIAL 7D",
       description: "Limpieza profunda de 7 pasos que exfolia, extrae e hidrata para una piel radiante.",
       category: "faciales",
-      image: facialImage
+      image: hydrafacial7dImg
     },
     {
       id: 4,
       title: "HYDRAFACIAL 9D",
       description: "Tratamiento avanzado de 9 pasos para rejuvenecer y revitalizar profundamente la piel.",
       category: "faciales",
-      image: facialImage
+      image: hydrafacial9dImg
     },
     {
       id: 5,
       title: "HYDRALIP",
       description: "Hidratación y volumización de labios para un aspecto natural y seductor.",
       category: "faciales",
-      image: facialImage
+      image: hydralipImg
     },
     {
       id: 6,
       title: "PRP FACIAL",
       description: "Plasma Rico en Plaquetas para regeneración natural y rejuvenecimiento facial.",
       category: "faciales",
-      image: facialImage
+      image: prpFacialImg
     },
     {
       id: 7,
       title: "HIFU Facial (2 SESIONES)",
       description: "Ultrasonido focalizado de alta intensidad para lifting facial sin cirugía.",
       category: "faciales",
-      image: facialImage
+      image: hifuFacialImg
     },
     {
       id: 8,
       title: "NCTF",
       description: "Biorevitalización con ácido hialurónico y complejo polivitamínico.",
       category: "faciales",
-      image: facialImage
+      image: nctfImg
     },
     {
       id: 9,
       title: "PINK GLOW",
       description: "Tratamiento que aporta luminosidad y brillo rosado natural a la piel.",
       category: "faciales",
-      image: facialImage
+      image: pinkGlowImg
     },
     {
       id: 10,
       title: "MESOTERAPIA BTX DMAE",
       description: "Mesoterapia con toxina botulínica y DMAE para rejuvenecer y tensar la piel.",
       category: "faciales",
-      image: facialImage
+      image: mesoterapiaBtxImg
     },
     {
       id: 11,
       title: "BOTOX 1 ZONA",
       description: "Aplicación de botox en una zona específica para eliminar arrugas de expresión.",
       category: "faciales",
-      image: facialImage
+      image: botoxImg
     },
     {
       id: 12,
       title: "BOTOX 2 ZONAS",
       description: "Tratamiento con botox en dos zonas para resultados más completos.",
       category: "faciales",
-      image: facialImage
+      image: botoxImg
     },
     {
       id: 13,
       title: "BOTOX (3 ZONAS)",
       description: "Aplicación completa de botox en tres zonas para máximos resultados.",
       category: "faciales",
-      image: facialImage
+      image: botoxImg
     },
     {
       id: 14,
       title: "EXOSOMAS FACIALES",
       description: "Tecnología avanzada de exosomas para regeneración celular profunda.",
       category: "faciales",
-      image: facialImage
+      image: exosomasImg
     },
     {
       id: 15,
       title: "LIPOPAPADA CON ENZIMAS",
       description: "Eliminación de grasa en papada utilizando enzimas liporreductoras.",
       category: "faciales",
-      image: facialImage
+      image: lipopapadaImg
     },
     {
       id: 16,
       title: "RADIESSE (1 VIAL)",
       description: "Relleno con hidroxiapatita cálcica para estimular colágeno natural.",
       category: "faciales",
-      image: facialImage
+      image: radiesseImg
     },
     {
       id: 17,
       title: "RADIESSE (2 VIALES)",
       description: "Tratamiento avanzado con 2 viales de Radiesse para resultados óptimos.",
       category: "faciales",
-      image: facialImage
+      image: radiesseImg
     },
     {
       id: 18,
       title: "RADIESSE (3 VIALES)",
       description: "Tratamiento completo con 3 viales para máxima volumización y firmeza.",
       category: "faciales",
-      image: facialImage
+      image: radiesseImg
     },
     {
       id: 19,
       title: "RINOMODELACION",
       description: "Remodelación nasal no quirúrgica con ácido hialurónico.",
       category: "faciales",
-      image: facialImage
+      image: rinomodelacionImg
     },
     {
       id: 20,
       title: "PERFECT LIPS",
       description: "Perfilado y volumización de labios para una sonrisa perfecta.",
       category: "faciales",
-      image: facialImage
+      image: perfectLipsImg
     },
     {
       id: 21,
       title: "RELLENO DE MENTON",
       description: "Definición y proyección del mentón con rellenos dérmicos.",
       category: "faciales",
-      image: facialImage
+      image: rellenoMentonImg
     },
 
     // Corporales
@@ -173,91 +201,91 @@ const Servicios = () => {
       title: "HIFU CORPORAL",
       description: "Ultrasonido focalizado para reafirmar y tonificar el cuerpo.",
       category: "corporales",
-      image: bodyImage
+      image: hifuCorporalImg
     },
     {
       id: 23,
       title: "PROTOCOLO ABDOMEN Y FLANCOS (5 SESIONES)",
       description: "Plan completo de 5 sesiones para reducir grasa abdominal y flancos.",
       category: "corporales",
-      image: bodyImage
+      image: abdomenFlancosImg
     },
     {
       id: 24,
       title: "PROTOCOLO AFRODITA (5 SESIONES)",
       description: "Protocolo de 5 sesiones para contornear la figura femenina.",
       category: "corporales",
-      image: bodyImage
+      image: protocoloAfroditaImg
     },
     {
       id: 25,
       title: "PROTOCOLO CLEOPATRA (4 SESIONES)",
       description: "Tratamiento de 4 sesiones inspirado en la belleza egipcia.",
       category: "corporales",
-      image: bodyImage
+      image: protocoloCleopatraImg
     },
     {
       id: 26,
       title: "PROTOCOLO VERANO 10 SESIONES",
       description: "Plan intensivo de 10 sesiones para preparar el cuerpo para el verano.",
       category: "corporales",
-      image: bodyImage
+      image: protocoloVeranoImg
     },
     {
       id: 27,
       title: "PRP DORSO DE MANOS",
       description: "Rejuvenecimiento de manos con Plasma Rico en Plaquetas.",
       category: "corporales",
-      image: bodyImage
+      image: prpManosImg
     },
     {
       id: 28,
       title: "MELA (1 ZONA)- Sin Drenaje",
       description: "Lipotransferencia en una zona para contornear el cuerpo naturalmente.",
       category: "corporales",
-      image: bodyImage
+      image: melaImg
     },
     {
       id: 29,
       title: "MELA (2 ZONA)- Sin Drenaje",
       description: "Lipotransferencia en dos zonas para resultados más completos.",
       category: "corporales",
-      image: bodyImage
+      image: melaImg
     },
     {
       id: 30,
       title: "MELA (3 ZONA)- Sin Drenaje",
       description: "Lipotransferencia completa en tres zonas corporales.",
       category: "corporales",
-      image: bodyImage
+      image: melaImg
     },
     {
       id: 31,
       title: "Paquete de drenajes 10 Sesiones",
       description: "Plan de 10 sesiones de drenaje linfático post-operatorio.",
       category: "corporales",
-      image: bodyImage
+      image: drenajesImg
     },
     {
       id: 32,
       title: "Paquete de drenajes 15 Sesiones",
       description: "Plan de 15 sesiones de drenaje linfático para óptimos resultados.",
       category: "corporales",
-      image: bodyImage
+      image: drenajesImg
     },
     {
       id: 33,
       title: "Paquete de drenajes 20 Sesiones",
       description: "Plan completo de 20 sesiones de drenaje linfático especializado.",
       category: "corporales",
-      image: bodyImage
+      image: drenajesImg
     },
     {
       id: 34,
       title: "PROTOCOLO CAPILAR (5 sesiones)",
       description: "Tratamiento de 5 sesiones para fortalecimiento y crecimiento capilar.",
       category: "corporales",
-      image: bodyImage
+      image: protocoloCapilarImg
     },
 
     // Íntimos
@@ -266,7 +294,7 @@ const Servicios = () => {
       title: "HIFU INTIMO",
       description: "Rejuvenecimiento íntimo femenino con tecnología HIFU para mejorar función y estética.",
       category: "intimos",
-      image: intimateImage
+      image: hifuIntimoImg
     },
 
     // Sueroterapia
@@ -275,21 +303,21 @@ const Servicios = () => {
       title: "COCTEL DE VITAMINAS ANTIESTRES",
       description: "Cóctel personalizado de vitaminas para combatir el estrés y revitalizar el organismo.",
       category: "sueroterapia",
-      image: serumImage
+      image: vitaminasAntiestresImg
     },
     {
       id: 37,
       title: "GLUTATION",
       description: "Antioxidante maestro que mejora la piel y fortalece el sistema inmune.",
       category: "sueroterapia",
-      image: serumImage
+      image: glutationImg
     },
     {
       id: 38,
       title: "VITAMINA C",
       description: "Potente antioxidante que ilumina la piel y fortalece las defensas.",
       category: "sueroterapia",
-      image: serumImage
+      image: vitaminaCImg
     }
   ];
 
