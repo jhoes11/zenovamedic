@@ -1,5 +1,6 @@
 import { CheckCircle, Award, Users, Heart } from "lucide-react";
 import logo from "@/assets/logo.png";
+import nosotrosBg from "@/assets/nosotros-bg.jpg";
 
 const Nosotros = () => {
   const values = [
@@ -28,8 +29,16 @@ const Nosotros = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="section-padding bg-gradient-soft">
-        <div className="container mx-auto max-w-4xl text-center">
+      <section className="relative section-padding overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src={nosotrosBg}
+            alt="Zenova Medic Background"
+            className="w-full h-full object-cover blur-sm opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-soft"></div>
+        </div>
+        <div className="relative container mx-auto max-w-4xl text-center">
           <img 
             src={logo} 
             alt="Zenova Medic Logo" 
