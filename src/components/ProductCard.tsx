@@ -1,19 +1,20 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ShoppingCart } from "lucide-react";
 
 interface ProductCardProps {
   title: string;
   description: string;
   category: string;
   price: string;
+  image: string;
 }
 
 const ProductCard = ({
   title,
   description,
   category,
-  price
+  price,
+  image
 }: ProductCardProps) => {
   const handleContactWhatsApp = () => {
     const message = `Hola! Me interesa el producto: ${title} - ${price}`;
@@ -23,14 +24,16 @@ const ProductCard = ({
 
   return (
     <Card className="card-premium hover-lift group overflow-hidden h-full flex flex-col">
-      <div className="relative overflow-hidden bg-gradient-primary/5 p-4">
+      <div className="relative overflow-hidden">
+        <img 
+          src={image} 
+          alt={title} 
+          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" 
+        />
         <div className="absolute top-4 left-4">
           <span className="bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium">
             {category}
           </span>
-        </div>
-        <div className="flex items-center justify-center h-24 mt-8">
-          <ShoppingCart className="h-12 w-12 text-primary/60" />
         </div>
       </div>
       
