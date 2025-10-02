@@ -32,7 +32,7 @@ const products = [
   },
   {
     id: 2,
-    title: "Jabón Seniderm Ácido Hialurónico",
+    title: "Jabón Sensiderm Ácido Hialurónico",
     description: "Jabón con ácido hialurónico para hidratación profunda y anti-edad.",
     category: "Jabones Sensiderm",
     price: "S/ 60.00",
