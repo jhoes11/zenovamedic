@@ -26,7 +26,7 @@ const Hero = () => {
           <img 
             src={logo} 
             alt="Zenova Medic Logo" 
-            className="w-64 md:w-80 mx-auto mb-2"
+            className="w-64 md:w-80 mx-auto mb-1"
           />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">Tu mejor versión</span>
