@@ -12,6 +12,11 @@ const Hero = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-black/20"></div>
+        <div className="absolute bottom-2 right-2">
+          <span className="bg-black/60 text-white px-2 py-0.5 rounded text-[10px]">
+            Imágenes referenciales
+          </span>
+        </div>
       </div>
 
       {/* Content */}

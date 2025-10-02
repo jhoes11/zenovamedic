@@ -24,6 +24,11 @@ const ServiceCard = ({
             {category}
           </span>
         </div>
+        <div className="absolute bottom-2 right-2">
+          <span className="bg-black/60 text-white px-2 py-0.5 rounded text-[10px]">
+            Imágenes referenciales
+          </span>
+        </div>
       </div>
       
       <CardContent className="p-6">
