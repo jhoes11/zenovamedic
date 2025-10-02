@@ -118,11 +118,11 @@ const Nosotros = () => {
               <div className="text-luxury">Años de experiencia</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">+500</div>
+              <div className="text-4xl font-bold text-primary mb-2">+200</div>
               <div className="text-luxury">Pacientes satisfechos</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
+              <div className="text-4xl font-bold text-primary mb-2">30+</div>
               <div className="text-luxury">Tratamientos disponibles</div>
             </div>
             <div>
