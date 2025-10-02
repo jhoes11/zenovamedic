@@ -1,4 +1,5 @@
 import { CheckCircle, Award, Users, Heart } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Nosotros = () => {
   const values = [
@@ -29,6 +30,11 @@ const Nosotros = () => {
       {/* Hero Section */}
       <section className="section-padding bg-gradient-soft">
         <div className="container mx-auto max-w-4xl text-center">
+          <img 
+            src={logo} 
+            alt="Zenova Medic Logo" 
+            className="w-64 md:w-80 mx-auto mb-8 fade-in-up"
+          />
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 fade-in-up">
             Conoce <span className="text-primary">Zenova Medic</span>
           </h1>
