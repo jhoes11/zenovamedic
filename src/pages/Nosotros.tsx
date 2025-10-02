@@ -134,7 +134,7 @@ const Nosotros = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-gold bg-orange-200">
+      <section className="section-padding bg-primary">
         <div className="container mx-auto max-w-4xl text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             ¿Lista para conocer tu mejor versión?
