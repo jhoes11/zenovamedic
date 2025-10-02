@@ -17,7 +17,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto fade-in-up flex flex-col items-center justify-center">
-          <img src={logo} alt="Zenova Medic Logo" className="w-48 md:w-64 mx-auto mb-1" />
+          <img src={logo} alt="Zenova Medic Logo" className="w-48 md:w-64 mx-auto mb-1.5" />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block">Tu mejor versión</span>
             <span className="block text-primary">comienza aquí</span>
