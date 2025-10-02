@@ -1,49 +1,33 @@
 import { CheckCircle, Award, Users, Heart } from "lucide-react";
 import logo from "@/assets/logo.png";
 import nosotrosBg from "@/assets/nosotros-bg.jpg";
-
 const Nosotros = () => {
-  const values = [
-    {
-      icon: <Heart className="w-8 h-8 text-primary" />,
-      title: "Pasión por la excelencia",
-      description: "Cada tratamiento es realizado con el más alto estándar de calidad y dedicación personalizada."
-    },
-    {
-      icon: <Users className="w-8 h-8 text-primary" />,
-      title: "Enfoque personalizado",
-      description: "Entendemos que cada persona es única, por eso diseñamos tratamientos a medida de tus necesidades."
-    },
-    {
-      icon: <Award className="w-8 h-8 text-primary" />,
-      title: "Tecnología avanzada",
-      description: "Utilizamos los equipos más modernos y técnicas innovadoras en medicina estética."
-    },
-    {
-      icon: <CheckCircle className="w-8 h-8 text-primary" />,
-      title: "Resultados garantizados",
-      description: "Nuestro compromiso es brindarte la mejor versión de ti mismo con resultados naturales y duraderos."
-    }
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const values = [{
+    icon: <Heart className="w-8 h-8 text-primary" />,
+    title: "Pasión por la excelencia",
+    description: "Cada tratamiento es realizado con el más alto estándar de calidad y dedicación personalizada."
+  }, {
+    icon: <Users className="w-8 h-8 text-primary" />,
+    title: "Enfoque personalizado",
+    description: "Entendemos que cada persona es única, por eso diseñamos tratamientos a medida de tus necesidades."
+  }, {
+    icon: <Award className="w-8 h-8 text-primary" />,
+    title: "Tecnología avanzada",
+    description: "Utilizamos los equipos más modernos y técnicas innovadoras en medicina estética."
+  }, {
+    icon: <CheckCircle className="w-8 h-8 text-primary" />,
+    title: "Resultados garantizados",
+    description: "Nuestro compromiso es brindarte la mejor versión de ti mismo con resultados naturales y duraderos."
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative section-padding overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src={nosotrosBg}
-            alt="Zenova Medic Background"
-            className="w-full h-full object-cover blur-sm opacity-20"
-          />
+          <img src={nosotrosBg} alt="Zenova Medic Background" className="w-full h-full object-cover blur-sm opacity-20" />
           <div className="absolute inset-0 bg-gradient-soft"></div>
         </div>
         <div className="relative container mx-auto max-w-4xl text-center">
-          <img 
-            src={logo} 
-            alt="Zenova Medic Logo" 
-            className="w-64 md:w-80 mx-auto mb-8 fade-in-up"
-          />
+          <img src={logo} alt="Zenova Medic Logo" className="w-64 md:w-80 mx-auto mb-8 fade-in-up" />
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 fade-in-up">
             Conoce <span className="text-primary">Zenova Medic</span>
           </h1>
@@ -110,8 +94,7 @@ const Nosotros = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {values.map((value, index) => (
-              <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
+            {values.map((value, index) => <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow duration-300">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
                     {value.icon}
@@ -121,8 +104,7 @@ const Nosotros = () => {
                     <p className="text-luxury">{value.description}</p>
                   </div>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -152,7 +134,7 @@ const Nosotros = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding bg-gradient-gold">
+      <section className="section-padding bg-gradient-gold bg-orange-200">
         <div className="container mx-auto max-w-4xl text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             ¿Lista para conocer tu mejor versión?
@@ -167,8 +149,6 @@ const Nosotros = () => {
           </button>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Nosotros;
