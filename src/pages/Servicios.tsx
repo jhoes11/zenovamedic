@@ -435,7 +435,7 @@ const Servicios = () => {
             Agenda tu consulta personalizada y descubre el tratamiento perfecto para ti.
           </p>
           <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/90 transition-colors duration-300">
-            <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
               Agendar Consulta Gratuita
             </a>
           </button>

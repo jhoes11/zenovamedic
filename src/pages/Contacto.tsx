@@ -208,7 +208,7 @@ const Contacto = () => {
                   Utiliza nuestro sistema de citas en línea para mayor comodidad.
                 </p>
                 <Button className="btn-premium w-full">
-                  <a href="https://agendapro.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
                     Agendar Cita Online
                   </a>
                 </Button>
