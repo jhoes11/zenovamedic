@@ -4,27 +4,29 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-
 const Contacto = () => {
-  const { toast } = useToast();
+  const {
+    toast
+  } = useToast();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     message: ""
   });
-
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const {
+      name,
+      value
+    } = e.target;
     setFormData(prev => ({
       ...prev,
       [name]: value
     }));
   };
-
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
@@ -38,7 +40,7 @@ const Contacto = () => {
     // Simulate form submission
     toast({
       title: "Mensaje enviado",
-      description: "Gracias por contactarnos. Te responderemos pronto.",
+      description: "Gracias por contactarnos. Te responderemos pronto."
     });
 
     // Reset form
@@ -49,9 +51,7 @@ const Contacto = () => {
       message: ""
     });
   };
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="section-padding bg-gradient-soft">
         <div className="container mx-auto max-w-4xl text-center">
@@ -78,28 +78,13 @@ const Contacto = () => {
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
                       Nombre completo *
                     </label>
-                    <Input
-                      id="name"
-                      name="name"
-                      type="text"
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      placeholder="Tu nombre completo"
-                      required
-                    />
+                    <Input id="name" name="name" type="text" value={formData.name} onChange={handleInputChange} placeholder="Tu nombre completo" required />
                   </div>
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium mb-2">
                       Teléfono
                     </label>
-                    <Input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      placeholder="+51 987 654 321"
-                    />
+                    <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} placeholder="+51 987 654 321" />
                   </div>
                 </div>
 
@@ -107,30 +92,14 @@ const Contacto = () => {
                   <label htmlFor="email" className="block text-sm font-medium mb-2">
                     Correo electrónico *
                   </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleInputChange}
-                    placeholder="tu@email.com"
-                    required
-                  />
+                  <Input id="email" name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="tu@email.com" required />
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium mb-2">
                     Mensaje *
                   </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    placeholder="Cuéntanos en qué podemos ayudarte..."
-                    rows={5}
-                    required
-                  />
+                  <Textarea id="message" name="message" value={formData.message} onChange={handleInputChange} placeholder="Cuéntanos en qué podemos ayudarte..." rows={5} required />
                 </div>
 
                 <Button type="submit" className="btn-premium w-full">
@@ -165,12 +134,7 @@ const Contacto = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Teléfono</h3>
                     <p className="text-luxury">+51 987 654 321</p>
-                    <a 
-                      href="https://wa.me/51987654321" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-green-600 hover:text-green-700 text-sm"
-                    >
+                    <a href="https://wa.me/51987654321" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 text-sm">
                       Enviar WhatsApp →
                     </a>
                   </div>
@@ -182,7 +146,7 @@ const Contacto = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Correo electrónico</h3>
-                    <p className="text-luxury">info@zenovamedic.com</p>
+                    <p className="text-luxury">zenovamedic@gmail.com</p>
                   </div>
                 </div>
 
@@ -193,8 +157,8 @@ const Contacto = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Horarios de atención</h3>
                     <div className="text-luxury space-y-1">
-                      <p>Lunes a Viernes: 9:00 AM - 7:00 PM</p>
-                      <p>Sábados: 9:00 AM - 2:00 PM</p>
+                      <p>Lunes a Viernes: 9:00 AM - 8:00 PM</p>
+                      <p>Sábados: 9:00 AM - 8:00 PM</p>
                       <p>Domingos: Cerrado</p>
                     </div>
                   </div>
@@ -266,8 +230,6 @@ const Contacto = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Contacto;
