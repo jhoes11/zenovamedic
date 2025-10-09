@@ -60,9 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border/50 pt-8 text-center">
-          <p className="text-sm text-muted-foreground">
-            © 2024 Zenova Medic. Todos los derechos reservados. | Clínica Médico-Estética en Chiclayo
-          </p>
+          <p className="text-sm text-muted-foreground">© 2025 Zenova Medic. Todos los derechos reservados. | Clínica Médico-Estética en Chiclayo</p>
         </div>
       </div>
 

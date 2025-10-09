@@ -143,9 +143,7 @@ const Nosotros = () => {
             Agenda tu consulta personalizada y descubre cómo podemos ayudarte a alcanzar tus objetivos estéticos.
           </p>
           <button className="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white/90 transition-colors duration-300">
-            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">
-              Agendar Consulta Gratuita
-            </a>
+            <a href="https://zenovamedic.site.agendapro.com/pe" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
           </button>
         </div>
       </section>
