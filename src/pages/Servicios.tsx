@@ -33,6 +33,7 @@ import hifuIntimoImg from "@/assets/services/hifu-intimo.jpg";
 import vitaminasAntiestresImg from "@/assets/services/vitaminas-antiestres.jpg";
 import glutationImg from "@/assets/services/glutation.jpg";
 import vitaminaCImg from "@/assets/services/vitamina-c.jpg";
+import depilacionLaserImg from "@/assets/services/depilacion-laser.jpg";
 
 const Servicios = () => {
   const [activeCategory, setActiveCategory] = useState("todos");
@@ -318,6 +319,13 @@ const Servicios = () => {
       description: "Potente antioxidante que ilumina la piel y fortalece las defensas.",
       category: "sueroterapia",
       image: vitaminaCImg
+    },
+    {
+      id: 39,
+      title: "DEPILACIÓN LASER",
+      description: "Depilación definitiva con tecnología láser de última generación para una piel suave y sin vello.",
+      category: "corporales",
+      image: depilacionLaserImg
     }
   ];
 
