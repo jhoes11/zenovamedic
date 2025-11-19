@@ -28,7 +28,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} alt="Zenova Medic Logo" className="h-10 w-10" />
+            <img src={logo} alt="Zenova Medic Logo" className="h-12 w-auto" />
             <h1 className="text-2xl font-bold text-primary">ZENOVA MEDIC</h1>
           </Link>
 
