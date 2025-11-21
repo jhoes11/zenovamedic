@@ -121,7 +121,14 @@ const Contacto = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Dirección</h3>
                     <p className="text-luxury">
-                      Av. Principal 123, Chiclayo<br />
+                      Las Diamelas 471 Santa Victoria
+Chiclayo Peru   
+
+
+
+
+
+               <br />
                       Lambayeque, Perú
                     </p>
                   </div>
@@ -133,8 +140,8 @@ const Contacto = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg mb-1">Teléfono</h3>
-                    <p className="text-luxury">+51 987 654 321</p>
-                    <a href="https://wa.me/51987654321" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 text-sm">
+                    <p className="text-luxury">+51 986 921 164</p>
+                    <a target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-700 text-sm" href="https://wa.me/51986921164">
                       Enviar WhatsApp →
                     </a>
                   </div>
