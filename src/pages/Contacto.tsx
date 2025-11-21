@@ -70,44 +70,7 @@ const Contacto = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Envíanos un mensaje</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">
-                      Nombre completo *
-                    </label>
-                    <Input id="name" name="name" type="text" value={formData.name} onChange={handleInputChange} placeholder="Tu nombre completo" required />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                      Teléfono
-                    </label>
-                    <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleInputChange} placeholder="+51 987 654 321" />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
-                    Correo electrónico *
-                  </label>
-                  <Input id="email" name="email" type="email" value={formData.email} onChange={handleInputChange} placeholder="tu@email.com" required />
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    Mensaje *
-                  </label>
-                  <Textarea id="message" name="message" value={formData.message} onChange={handleInputChange} placeholder="Cuéntanos en qué podemos ayudarte..." rows={5} required />
-                </div>
-
-                <Button type="submit" className="btn-premium w-full">
-                  <Send size={16} className="mr-2" />
-                  Enviar Mensaje
-                </Button>
-              </form>
-            </div>
+            
 
             {/* Contact Information */}
             <div>
