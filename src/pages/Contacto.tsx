@@ -157,13 +157,17 @@ Chiclayo Peru   
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-3xl font-bold mb-8 text-center">Encuéntranos</h2>
           <div className="bg-white rounded-xl overflow-hidden shadow-lg">
-            <div className="aspect-video bg-gray-200 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="w-12 h-12 mx-auto mb-2" />
-                <p>Mapa interactivo de ubicación</p>
-                <p className="text-sm">Av. Principal 123, Chiclayo</p>
-              </div>
-            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.8776453094646!2d-79.84420392460908!3d-6.783333393212051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904cef1e0f3b6d47%3A0x8e0e0e0e0e0e0e0e!2sLas%20Diamelas%20471%2C%20Chiclayo%2014009%2C%20Peru!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Ubicación Zenova Medic"
+              className="rounded-xl"
+            ></iframe>
           </div>
         </div>
       </section>
