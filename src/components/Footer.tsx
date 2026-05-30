@@ -65,6 +65,7 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">© 2025 Zenova Medic. Todos los derechos reservados. | Clínica Médico-Estética en Chiclayo</p>
           <Link
             to="/libro-reclamaciones"
+            onClick={() => window.scrollTo({ top: 0, behavior: "auto" })}
             className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/30 bg-white text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm font-medium shadow-sm"
           >
             <BookOpen size={16} />
