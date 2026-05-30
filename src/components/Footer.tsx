@@ -1,4 +1,6 @@
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { Link } from "react-router-dom";
+import { BookOpen } from "lucide-react";
 const Footer = () => {
   return <footer className="bg-gradient-to-b from-secondary/30 to-secondary/60 pt-16 pb-8">
       <div className="container mx-auto px-4">
@@ -61,6 +63,13 @@ const Footer = () => {
 
         <div className="border-t border-border/50 pt-8 text-center">
           <p className="text-sm text-muted-foreground">© 2025 Zenova Medic. Todos los derechos reservados. | Clínica Médico-Estética en Chiclayo</p>
+          <Link
+            to="/libro-reclamaciones"
+            className="mt-6 inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-primary/30 bg-white text-primary hover:bg-primary hover:text-primary-foreground transition-colors text-sm font-medium shadow-sm"
+          >
+            <BookOpen size={16} />
+            Libro de Reclamaciones
+          </Link>
         </div>
       </div>
 
