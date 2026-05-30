@@ -8,6 +8,7 @@ import Nosotros from "./pages/Nosotros";
 import Servicios from "./pages/Servicios";
 import Tienda from "./pages/Tienda";
 import Contacto from "./pages/Contacto";
+import LibroReclamaciones from "./pages/LibroReclamaciones";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -29,6 +30,7 @@ const App = () => (
               <Route path="/servicios" element={<Servicios />} />
               <Route path="/tienda" element={<Tienda />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/libro-reclamaciones" element={<LibroReclamaciones />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
